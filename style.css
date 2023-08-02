@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding:0;
+}
+:root{
+--playfair-display:"playfair Display",
+serif;
+--plus-jakarta-sans:"plus jakartasans", sans-serif;
+--primary-color:#168a92;
+--secondary-colour:#0000;
+--background-colour:#ffffff;
+--black-200:var(--secondary-colour)
+}
+body{
+    background: #ffffff;
+    font-family: 'poppins',sans-serif;
+    align-items:center ;
+    justify-content: center;
+   }
+a{
+text-decoration: none;
+}
+.main-header {
+    background-image: url("IMAGES/hero.jpg");
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 73px;
+    font-size: 24px;
+}
+.header__menu{
+    display: flex;
+    justify-content: center;
+}
+
+.header__menu li{
+ margin: 10px;
+ list-style: none;
+}
+.header__menu li a{
+    list-style: none;
+}
+hr{
+    height: 3px;
+    background-color: #151616;
+    width: 70px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav__menu{
+    margin: 10px;
+    font-size: 24px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    overflow:hidden;
+    }
+    
+    .header__logo{
+        flex:1;
+        position: relative;
+        padding-left: 0%;
+    }
+    .header_logo-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100px;
+    background-color:var (background-color);
+    }
+    .header_logo h4{
+    padding-left: 30px;
+     color:#ffffff;
+    }
+/* .frame1{
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+    margin-top: 200px;
+} */
+h1 {
+    font-size: 112px;
+    display: flex;
+    justify-content: center; /*hdiyhe */
+    margin-top: 300px;
+}
+ .frame1 h2{
+    font-size:32px ;
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+}
+.second-letter {
+    color: aqua;
+    font-size: 24px;
+}
+button{
+    font-size: 24px;
+    border: 8px solid #0000;
+    background-color: transparent;
+}
+.section{
+    background-color: white;
+    margin-bottom: 100px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: white;
+    position: relative;
+    left: 30px;
+    border: 3px solid #ffffff;
+
+
+}
+footer .Subscribe-button{float: right;}
+
+.cover{
+width: 900px;
+height: 400px;
+margin-top:50px;
+display: flex;
+
+}
+
+/* .box{
+margin: 10px;
+width: 800px;
+height: 400px;
+box-shadow: -1px 0px #ffffff;
+align-items: center;
+justify-content: center;
+text-align: center;
+} */
+
+img{
+width:  300px;
+height: 200px;
+}
+
+.section-3{
+    display: flex;
+}
+.section-3-content{
+font-size: 20px;
+}
+.content{
+    flex: 1;
+    margin-left: 50px;
+}
+.content h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.image-container{
+width: 752px;
+height: 835px;
+top: 2035px;
+}
+.hero-content h2{
+    text-align: center;
+    align-content: center;
+}
+.sactor{
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 20px;
+gap: 73px;
+flex-direction: column;
+}
+
+h2 {
+    color: #333;
+    margin-top: 50px;
+}
+
+p {
+    color: #666;
+}
+
+form {
+    margin-top: 30px;
+    align-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+input[type="email"] {
+    padding: 8px;
+    width: 300px;
+    align-content: center;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    align-content:center;
+
+}
+
+
+
+
