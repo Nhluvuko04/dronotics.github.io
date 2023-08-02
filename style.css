@@ -76,6 +76,7 @@ hr{
     inset: 0;
     width: 100px;
     background-color:var (background-color);
+    
     }
     .header_logo h4{
     padding-left: 30px;
@@ -220,8 +221,35 @@ input[type="submit"] {
     cursor: pointer;
     margin-top: 10px;
     align-content:center;
+    border-radius: 5px;
+    border: 2px solid black;
+
+    
+    
+}
+ 
+.head{
+display: flex;
+margin-left: 950px;
+align-items: center;
+padding: 20px;
+align-content: flex-end;
 
 }
+
+.head li {
+   list-style: none;
+    
+}
+
+.head li a{
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
 
 
 
